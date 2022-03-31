@@ -1,10 +1,10 @@
 {
   "dependencies": {
+    "babel-jest": "^23.6.0",
+    "jest": "^24.9.0",
     "react-redux": "^7.2.7",
     "react-router-dom": "^6.2.2",
-    "redux": "^4.1.2",
-    "babel-jest": "^23.6.0",
-    "jest": "^24.0.0"
+    "redux": "^4.1.2"
   },
   "devDependencies": {
     "@testing-library/react": "^13.0.0"
@@ -14,13 +14,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wendryosales/rtl-helpers.git"
   },
-  "keywords": ["react-helpers", "rtl-helpers", "renderWithRouter", "renderWithRedux", "renderWithRouterAndRedux", "redux-helpers", "test for react-redux"],
+  "keywords": [
+    "react-helpers",
+    "rtl-helpers",
+    "renderWithRouter",
+    "renderWithRedux",
+    "renderWithRouterAndRedux",
+    "redux-helpers",
+    "test for react-redux"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
