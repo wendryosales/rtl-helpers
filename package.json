@@ -6,5 +6,23 @@
   },
   "devDependencies": {
     "@testing-library/react": "^13.0.0"
-  }
+  },
+  "name": "rtl-helpers",
+  "description": "Useful functions for tests integrated with React",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendryosales/rtl-helpers.git"
+  },
+  "keywords": ["react-helpers", "rtl-helpers", "renderWithRouter", "renderWithRedux", "renderWithRouterAndRedux", "redux-helpers", "test for react-redux"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendryosales/rtl-helpers/issues"
+  },
+  "homepage": "https://github.com/wendryosales/rtl-helpers#readme"
 }

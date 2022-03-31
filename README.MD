@@ -74,4 +74,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 The function was not created by me. 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[ISC](https://opensource.org/licenses/ISC)
