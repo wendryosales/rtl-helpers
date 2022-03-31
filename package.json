@@ -15,7 +15,7 @@
   },
   "name": "rtl-helpers",
   "description": "Useful functions for tests integrated with React",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "jest"
