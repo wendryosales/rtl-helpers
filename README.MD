@@ -4,7 +4,7 @@ Useful functions for tests integrated with React
 
 ## Installation
 
-Use the package manager [npm](https://pip.pypa.io/en/stable/) to install rtl-helpers.
+Use the package manager [npm](https://www.npmjs.com/) to install rtl-helpers.
 
 ```bash
 npm install rtl-helpers
