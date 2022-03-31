@@ -2,7 +2,9 @@
   "dependencies": {
     "react-redux": "^7.2.7",
     "react-router-dom": "^6.2.2",
-    "redux": "^4.1.2"
+    "redux": "^4.1.2",
+    "babel-jest": "^23.6.0",
+    "jest": "^24.0.0"
   },
   "devDependencies": {
     "@testing-library/react": "^13.0.0"
