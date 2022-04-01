@@ -1,24 +1,13 @@
 {
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-redux": "^7.2.7",
-    "react-router-dom": "^6.2.2",
-    "redux": "^4.1.2"
-  },
-  "devDependencies": {
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7",
-    "@testing-library/react": "^13.0.0",
-    "babel-jest": "^27.5.1",
-    "jest": "^27.5.1",
-    "react-test-renderer": "^18.0.0"
-  },
   "name": "rtl-helpers",
   "description": "Useful functions for tests integrated with React",
-  "version": "1.0.1",
-  "main": "index.js",
+  "version": "1.0.2",
+  "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest node test/test.js",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -38,5 +27,41 @@
   "bugs": {
     "url": "https://github.com/wendryosales/rtl-helpers/issues"
   },
-  "homepage": "https://github.com/wendryosales/rtl-helpers#readme"
+  "homepage": "https://github.com/wendryosales/rtl-helpers#readme",
+  "dependencies": {
+    "react": "^18.0",
+    "react-dom": "^18.0.0",
+    "react-redux": "^7.2.7",
+    "react-router-dom": "^6.2.2",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@testing-library/react": "^13.0.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "react-test-renderer": "^18.0.0",
+    "rollup": "^2.70.1",
+    "rollup-plugin-jsx": "^1.0.3",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "peerDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/react": "^13.0.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "react": "^18.0",
+    "react-redux": "^7.2.7",
+    "react-router-dom": "^6.2.2",
+    "react-test-renderer": "^18.0.0",
+    "redux": "^4.1.2"
+  }
 }
